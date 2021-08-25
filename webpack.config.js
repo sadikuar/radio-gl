@@ -13,6 +13,7 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       title: "RadioGL",
+      template: "templates/default_template.html",
     }),
   ],
   output: {
